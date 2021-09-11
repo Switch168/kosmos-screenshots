@@ -1,0 +1,66 @@
+{
+  "look_at_this_readme": "https://github.com/fastlane-old/frameit/issues/49",
+  "device_frame_version": "1607001240",
+  "default": {
+    "keyword": {
+      "font": "./fonts/SchemeRg-Bold.otf"
+    },
+    "title": {
+      "text" : "My very long title",
+      "font": "./fonts/SchemeRg-Bold.otf",
+      "font_size": 128,
+      "color": "#545454"
+    },
+    "background": "./background.jpg",
+    "padding": "5%x5%",
+    "show_complete_frame": false,
+    "stack_title" : true,
+    "title_below_image": false,
+    "frame": "WHITE",
+    "use_platform": "IOS"
+  },
+
+  "data": [
+    {
+      "filter": "lock-screen",
+      "title": {
+        "text" : "Lock Screen"
+      }
+    },
+    {
+      "filter": "hi-level-notification",
+      "title": {
+        "text" : "Hi Level Notification"
+      }
+    },
+    {
+      "filter": "groupshot",
+      "title": {
+        "text" : "Group Chats"
+      }
+    },
+    {
+      "filter": "hi-level",
+      "title": {
+        "text" : "Hi-Level"
+      }
+    },
+    {
+      "filter": "low-level",
+      "title": {
+        "text" : "Lo-Level"
+      }
+    },
+    {
+      "our-description": "the girl and the guy making a call",
+      "filter": "ui-shot",
+      "title": {
+        "text" : "Free Calls"
+      }
+    },
+    {
+      "filter": "Android",
+      "use_platform": "ANDROID"
+    }
+  ]
+}
